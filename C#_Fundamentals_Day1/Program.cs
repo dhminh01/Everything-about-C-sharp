@@ -17,15 +17,7 @@ class Program
     {
         while (true)
         {
-            Console.Clear();
-            Console.WriteLine("Menu:");
-            Console.WriteLine("1. Add a car");
-            Console.WriteLine("2. View all cars");
-            Console.WriteLine("3. Search car by Make");
-            Console.WriteLine("4. Filter car by Type");
-            Console.WriteLine("5. Remove a car by Model");
-            Console.WriteLine("6. Exit");
-            Console.WriteLine("Enter your choice:");
+            DisplayMenu();
 
             switch (Console.ReadLine())
             {
@@ -40,6 +32,19 @@ class Program
             Console.WriteLine("\nPress Enter to continue...");
             Console.ReadLine();
         }
+    }
+
+    private static void DisplayMenu()
+    {
+        Console.Clear();
+        Console.WriteLine("Menu:");
+        Console.WriteLine("1. Add a car");
+        Console.WriteLine("2. View all cars");
+        Console.WriteLine("3. Search car by Make");
+        Console.WriteLine("4. Filter car by Type");
+        Console.WriteLine("5. Remove a car by Model");
+        Console.WriteLine("6. Exit");
+        Console.WriteLine("Enter your choice:");
     }
 
     private static void RemoveCarByModel()
