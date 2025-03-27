@@ -1,6 +1,6 @@
-﻿using System;
+﻿
+using System;
 
-// Abstract class Car
 abstract class Car
 {
     public string Make { get; set; }
@@ -34,19 +34,16 @@ abstract class Car
     }
 }
 
-// Fuelable interface
 interface IFuelable
 {
     void Refuel(DateTime timeOfRefuel);
 }
 
-// Chargeable interface
 interface IChargable
 {
     void Charge(DateTime timeOfCharge);
 }
 
-// FuelCar class
 class FuelCar : Car, IFuelable
 {
     public FuelCar(string make, string model, int year, DateTime lastMaintenanceDate)
