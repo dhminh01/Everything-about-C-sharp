@@ -39,3 +39,9 @@ secrets.json
 # Coverage & Testing files
 TestResults/
 coverage/
+
+# Ignore Visual Studio solution files
+*.sln
+
+# Ignore C# project files
+*.csproj
