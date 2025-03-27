@@ -55,7 +55,7 @@ class Program
 
     private static void RemoveCarByModel()
     {
-        if (BackToMainMenu("Press Enter to continue, or 'B' to go back: ")) return;
+        if (BackToMainMenu("Press Enter to continue to remove car by Model, or 'B' to go back: ")) return;
         Console.WriteLine("List of models:");
         foreach (var car in cars)
         {
@@ -79,7 +79,7 @@ class Program
 
     private static void FilterCarByType()
     {
-        if (BackToMainMenu("Press Enter to continue, or 'B' to go back: ")) return;
+        if (BackToMainMenu("Press Enter to continue to filter car by Type, or 'B' to go back: ")) return;
         Console.WriteLine("Enter car type (Fuel/Electric): ");
         if (!Enum.TryParse(Console.ReadLine(), true, out CarType type))
         {
@@ -103,7 +103,7 @@ class Program
 
     private static void SearchCarByMake()
     {
-        if (BackToMainMenu("Press Enter to continue, or 'B' to go back: ")) return;
+        if (BackToMainMenu("Press Enter to continue to search car by Make, or 'B' to go back: ")) return;
         Console.Write("Enter Make to search: ");
         string make = Console.ReadLine() ?? string.Empty;
         var results = cars.Where(c => c.Make.Equals(make, StringComparison.OrdinalIgnoreCase));
