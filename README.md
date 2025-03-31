@@ -38,10 +38,9 @@ This repository contains comprehensive resources, examples, and explanations abo
    *Example: cd C#_Fundamentals_Day1*
    ```
 4. Run the application:
-
-```bash
-   dotnet run
-```
+   ```bash
+      dotnet run
+   ```
 
 ## Usage
 
