@@ -44,4 +44,4 @@ This repository contains comprehensive resources, examples, and explanations abo
 - [x] 26.03.2025: C# Fundamentals Day 1 Assignment
 - [x] 27.03.2025: C# Fundamentals Day 2 Assignment
 - [x] 01.04.2025: .NET Core MVC Assignment 1
-- [ ] 02.04.2025: .NET Core MVC Assignment 2
+- [x] 02.04.2025: .NET Core MVC Assignment 2
