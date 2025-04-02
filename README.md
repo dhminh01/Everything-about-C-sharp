@@ -1,15 +1,12 @@
 # Everything-about-C-sharp
 
-Everything about C#
-
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Update](#update)
-- [License](#license)
+- [Updates](#updates)
 
 ## Introduction
 
@@ -22,6 +19,11 @@ This repository contains comprehensive resources, examples, and explanations abo
 - Best practices and design patterns.
 - Regular updates with new content.
 
+## Requirements
+
+- .NET Framework or .NET Core
+- Visual Studio or any compatible IDE
+
 ## Installation
 
 1. Clone the repository:
@@ -30,28 +32,16 @@ This repository contains comprehensive resources, examples, and explanations abo
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Everything-about-C-sharp
+   cd C#_Fundamentals_Day1
    ```
-3. Choose folder to run the application:
+3. Run the application:
    ```bash
-   cd Example
-   *Example: cd C#_Fundamentals_Day1*
+   dotnet run
    ```
-4. Run the application:
-   ```bash
-      dotnet run
-   ```
-
-## Usage
-
-Explore the repository to find topics of interest. Each folder contains markdown files and code examples to help you understand C# concepts.
 
 ## Updates
 
 - [x] 26.03.2025: C# Fundamentals Day 1 Assignment
 - [x] 27.03.2025: C# Fundamentals Day 2 Assignment
-- [ ] 31.03.2025: .NET Core MVC
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- [x] 01.04.2025: .NET Core MVC Assignment 1
+- [ ] 02.04.2025: .NET Core MVC Assignment 2

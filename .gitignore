@@ -5,7 +5,17 @@ out/
 
 # Visual Studio Code settings
 .vscode/
+.vs/
 *.code-workspace
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
 
 # User-specific files
 *.user
@@ -45,3 +55,21 @@ coverage/
 
 # Ignore C# project files
 *.csproj
+
+# ASP.NET MVC specific files
+App_Data/
+App_Start/
+Views/Web.config
+Views/Web.Debug.config
+Views/Web.Release.config
+
+# Temporary ASP.NET files
+Temporary ASP.NET Files/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Bundles
+*.bundle
+*.min.js
+*.min.css
