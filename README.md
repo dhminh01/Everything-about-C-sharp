@@ -28,7 +28,7 @@ This repository contains comprehensive resources, examples, and explanations abo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Everything-about-C-sharp.git
+   git clone https://github.com/dhminh01/Everything-about-C-sharp.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -45,3 +45,4 @@ This repository contains comprehensive resources, examples, and explanations abo
 - [x] 27.03.2025: C# Fundamentals Day 2 Assignment
 - [x] 01.04.2025: .NET Core MVC Assignment 1
 - [x] 02.04.2025: .NET Core MVC Assignment 2
+- [x] 04.04.2025: TaskApp - .NET Core API Assignment 1
