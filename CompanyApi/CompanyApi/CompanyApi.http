@@ -1,0 +1,5 @@
+@CompanyApi_HostAddress = http://localhost:5235
+
+Accept: application/json
+
+###

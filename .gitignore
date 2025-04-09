@@ -4,6 +4,7 @@ obj/
 out/
 
 # Visual Studio Code settings
+.github/
 .vscode/
 .vs/
 *.code-workspace
@@ -53,6 +54,8 @@ coverage/
 # Ignore Visual Studio solution files
 *.sln
 
+# Ignore C# project files
+*.csproj
 
 # ASP.NET MVC specific files
 App_Data/
