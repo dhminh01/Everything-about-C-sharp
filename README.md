@@ -33,3 +33,4 @@ This repository contains comprehensive resources, examples, and explanations abo
 - [x] 08.04.2025: PersonApp - .NET Core
 - [x] 09.04.2025: CompanyApi - EF Core
 - [x] 11.04.2025: CompanyApi2 - EF Core
+- [x] 15.04.2025: UnitTest_MVC - Unit test
